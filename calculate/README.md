@@ -1,4 +1,4 @@
-# calculate
+# BMI
 
 A new Flutter project.
 
