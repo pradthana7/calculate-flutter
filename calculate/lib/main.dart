@@ -37,7 +37,7 @@ class _HomeState extends State<Home> {
   void initState() {
     // TODO: implement initState
 
-    result.text = "your height 0 your weight 0, so your BMI is 0";
+    result.text = "your height: 0 your weight: 0, so and BMI is 0";
   }
 
   @override
@@ -49,7 +49,7 @@ class _HomeState extends State<Home> {
           child: Center(
             child: Column(
               children: [
-                Image.asset('bmi.jpg'),
+                Image.asset('wm.png'),
                 Text(
                   "BMI calculate",
                   style: TextStyle(fontSize: 30),
@@ -100,3 +100,4 @@ class _HomeState extends State<Home> {
     );
   }
 }
+
